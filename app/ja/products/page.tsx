@@ -5,7 +5,7 @@ const products = [
     id: "qube",
     name: "Qube",
     tagline: "PERFORMANCE-BASED GTM NETWORK FOR WEB3 IN ASIA",
-    jpDescription:
+    description:
       "DeFi・オンチェーンプロダクトのアジア展開を支援するパフォーマンスベースGTMネットワーク",
     url: "https://web.0xqube.xyz/",
   },
@@ -13,8 +13,8 @@ const products = [
     id: "hyperbuilder",
     name: "Hyperbuilder",
     tagline: "A HOME OF HYPERLIQUID BUILDERS",
-    jpDescription:
-      "金融特化のブロックチェーン「Hyperliquid」上のプロジェクトを支援するインキュベーター",
+    description:
+      "Hyperliquidエコシステムのコミュニティ＆マーケティング支援。イベント開催やKOLキャンペーンを展開",
     url: "https://www.hyperbuilder.co/",
   },
 ]
@@ -64,7 +64,7 @@ export default function ProductsPageJa() {
 
                 <div className="mt-6 flex flex-col flex-1">
                   <p className="text-sm text-muted-foreground leading-relaxed text-jp">
-                    「{product.jpDescription.replace(/^「|」$/g, "")}」
+                    {product.description}
                   </p>
 
                   {/* Product name as subtle external link */}

@@ -12,8 +12,8 @@ export const copy = {
       viewRoles: "View open roles",
     },
     hero: {
-      headline: "Build the future of enterprise intelligence",
-      subheadline: "We're assembling a world-class team to reimagine how organizations understand and act on their data.",
+      headline: "All for Value",
+      subheadline: "Building AI agents at the intersection of Web3 and AI, creating new frameworks for value creation.",
       ctaPrimary: "View open roles",
       ctaSecondary: "Our culture",
     },
@@ -22,26 +22,26 @@ export const copy = {
         title: "What we build",
         items: [
           {
-            title: "Intelligence Platform",
-            description: "Enterprise-grade AI that transforms complex data into actionable insights.",
+            title: "AI Agent Solutions",
+            description: "Autonomous AI agents that create real value across Web3 and beyond.",
           },
           {
-            title: "Decision Engine",
-            description: "Real-time analytics that power critical business decisions at scale.",
+            title: "Performance GTM Network",
+            description: "Qube: outcome-based distribution helping DeFi and on-chain products succeed in Asia.",
           },
           {
-            title: "Integration Layer",
-            description: "Seamless connections to your existing tools and workflows.",
+            title: "Ecosystem Support",
+            description: "HyperBuilder: community and marketing support for the Hyperliquid ecosystem.",
           },
         ],
       },
       whyNow: {
         title: "Why now",
-        description: "The convergence of advanced AI, cloud infrastructure, and enterprise demand has created a unique moment to build transformative technology.",
+        description: "The convergence of AI agents, Web3, and decentralized infrastructure creates an unprecedented opportunity for value creation.",
         bullets: [
-          "AI capabilities have reached enterprise readiness",
-          "Organizations are drowning in unstructured data",
-          "Legacy solutions can't keep pace with modern demands",
+          "AI agents are becoming autonomous economic participants",
+          "Web3 enables new models for value exchange",
+          "The Agent Economy is emerging",
         ],
       },
       principles: {
@@ -85,7 +85,7 @@ export const copy = {
             },
             {
               question: "Do you offer remote work?",
-              answer: "Yes, we're a distributed team with hubs in Tokyo and San Francisco. We support flexible work arrangements.",
+              answer: "Yes, we're a distributed team based in Tokyo with remote members worldwide. We support flexible work arrangements.",
             },
             {
               question: "What's the interview format?",
@@ -100,7 +100,7 @@ export const copy = {
       },
       finalCta: {
         title: "Join Ceed",
-        description: "Help us build the next generation of enterprise intelligence.",
+        description: "Help us build AI agents that create real value.",
         cta: "View open roles",
       },
     },
@@ -143,24 +143,23 @@ export const copy = {
       subtitle: "Our mission and team",
       mission: {
         title: "Our mission",
-        description: "To empower organizations with intelligent systems that transform complexity into clarity, enabling better decisions at every level.",
+        description: "All for Value — Delivering essential value to all stakeholders: projects, creators, and users.",
       },
       facts: {
         title: "Company facts",
         items: [
           { label: "Founded", value: "2024" },
-          { label: "Headquarters", value: "Tokyo & San Francisco" },
-          { label: "Team size", value: "15-25" },
-          { label: "Funding", value: "Series A" },
+          { label: "Headquarters", value: "Tokyo + Remote" },
+          { label: "Team size", value: "~15" },
+          { label: "Identity", value: "Agent Builders" },
         ],
       },
       team: {
         title: "Leadership",
         members: [
-          { name: "Alex Chen", role: "Co-founder & CEO" },
-          { name: "Yuki Tanaka", role: "Co-founder & CTO" },
-          { name: "Sarah Kim", role: "Head of Product" },
-          { name: "Marcus Johnson", role: "Head of Engineering" },
+          { name: "Zach Takahashi", role: "Founder & CEO" },
+          { name: "Badhan", role: "Co-founder & COO" },
+          { name: "Shungo Kimura", role: "CTO / Engineering Lead" },
         ],
       },
     },
@@ -175,14 +174,14 @@ export const copy = {
       },
       direct: {
         title: "Direct contact",
-        email: "hello@ceed.cloud",
+        email: "official@ceed.cloud",
       },
       social: {
         title: "Follow us",
       },
     },
     footer: {
-      tagline: "Building enterprise intelligence",
+      tagline: "All for Value",
       copyright: "© 2024 Ceed. All rights reserved.",
     },
   },
@@ -197,8 +196,8 @@ export const copy = {
       viewRoles: "募集職種を見る",
     },
     hero: {
-      headline: "企業インテリジェンスの未来を創る",
-      subheadline: "組織がデータを理解し活用する方法を再定義するため、世界最高水準のチームを構築しています。",
+      headline: "すべてはバリューのために",
+      subheadline: "AIエージェントを構築し、Web3とAIの交差点で新しい価値創出の仕組みを作る。",
       ctaPrimary: "募集職種を見る",
       ctaSecondary: "カルチャー",
     },
@@ -207,26 +206,26 @@ export const copy = {
         title: "プロダクト",
         items: [
           {
-            title: "インテリジェンスプラットフォーム",
-            description: "複雑なデータを実用的なインサイトに変換するエンタープライズAI。",
+            title: "AIエージェントソリューション",
+            description: "Web3とAIの交差点で本質的な価値を生み出す自律型AIエージェント。",
           },
           {
-            title: "意思決定エンジン",
-            description: "重要なビジネス判断をスケールで支えるリアルタイム分析。",
+            title: "パフォーマンスGTMネットワーク",
+            description: "Qube：DeFi・オンチェーンプロダクトのアジア展開を支援する成果報酬型GTMネットワーク。",
           },
           {
-            title: "統合レイヤー",
-            description: "既存のツールやワークフローとのシームレスな連携。",
+            title: "エコシステムサポート",
+            description: "HyperBuilder：Hyperliquidエコシステムのコミュニティ＆マーケティング支援。",
           },
         ],
       },
       whyNow: {
         title: "今、なぜ",
-        description: "高度なAI、クラウドインフラ、企業需要の収束により、変革的なテクノロジーを構築する絶好の機会が生まれました。",
+        description: "AIエージェント、Web3、分散型インフラの融合が、価値創出の前例のない機会を生み出しています。",
         bullets: [
-          "AI能力がエンタープライズレベルに到達",
-          "組織は非構造化データに埋もれている",
-          "レガシーソリューションは現代の需要に追いつけない",
+          "AIエージェントが自律的な経済主体になりつつある",
+          "Web3が価値交換の新しいモデルを可能にしている",
+          "エージェントエコノミーが出現している",
         ],
       },
       principles: {
@@ -270,7 +269,7 @@ export const copy = {
             },
             {
               question: "リモートワークは可能ですか？",
-              answer: "はい、東京とサンフランシスコにハブを持つ分散チームです。柔軟な勤務形態をサポートしています。",
+              answer: "はい、東京を拠点に世界各地にリモートメンバーがいます。柔軟な勤務形態をサポートしています。",
             },
             {
               question: "面接の形式は？",
@@ -285,7 +284,7 @@ export const copy = {
       },
       finalCta: {
         title: "Ceedに参加する",
-        description: "次世代のエンタープライズインテリジェンスを一緒に構築しましょう。",
+        description: "本質的な価値を生み出すAIエージェントを一緒に構築しましょう。",
         cta: "募集職種を見る",
       },
     },
@@ -328,24 +327,23 @@ export const copy = {
       subtitle: "ミッションとチーム",
       mission: {
         title: "ミッション",
-        description: "複雑さを明快さに変えるインテリジェントシステムで組織を支援し、あらゆるレベルでより良い意思決定を可能にします。",
+        description: "All for Value — すべてはバリューのために。プロジェクト・クリエイター・ユーザー、すべてのステークホルダーに本質的な価値を届ける。",
       },
       facts: {
         title: "会社情報",
         items: [
           { label: "設立", value: "2024年" },
-          { label: "本社", value: "東京 & サンフランシスコ" },
-          { label: "チーム規模", value: "15-25名" },
-          { label: "資金調達", value: "シリーズA" },
+          { label: "本社", value: "東京 + リモート" },
+          { label: "チーム規模", value: "約15名" },
+          { label: "アイデンティティ", value: "Agent Builders" },
         ],
       },
       team: {
         title: "リーダーシップ",
         members: [
-          { name: "Alex Chen", role: "共同創業者 & CEO" },
-          { name: "田中ゆき", role: "共同創業者 & CTO" },
-          { name: "Sarah Kim", role: "プロダクト責任者" },
-          { name: "Marcus Johnson", role: "エンジニアリング責任者" },
+          { name: "高橋勇作 (Zach)", role: "創業者・CEO" },
+          { name: "Badhan", role: "共同創業者・COO" },
+          { name: "木村駿吾 (Shungo)", role: "CTO / エンジニアリングリード" },
         ],
       },
     },
@@ -360,14 +358,14 @@ export const copy = {
       },
       direct: {
         title: "直接連絡",
-        email: "hello@ceed.cloud",
+        email: "official@ceed.cloud",
       },
       social: {
         title: "フォロー",
       },
     },
     footer: {
-      tagline: "エンタープライズインテリジェンスを構築",
+      tagline: "All for Value — すべてはバリューのために",
       copyright: "© 2024 Ceed. All rights reserved.",
     },
   },

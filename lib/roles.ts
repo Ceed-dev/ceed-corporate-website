@@ -17,9 +17,9 @@ export const roles: Role[] = [
     slug: "founding-engineer",
     title: "Founding Engineer",
     team: "Engineering",
-    location: "Remote / Tokyo / SF",
+    location: "Remote / Tokyo",
     type: "Full-time",
-    intro: "Join as a foundational member of our engineering team. You'll shape the technical direction and build core systems that power enterprise intelligence at scale.",
+    intro: "Join as a foundational member of our engineering team. You'll shape the technical direction and build core systems for AI agents and Web3 products.",
     responsibilities: [
       "Design and build core platform infrastructure from the ground up",
       "Make critical technical decisions that shape our architecture",
@@ -60,9 +60,9 @@ export const roles: Role[] = [
     slug: "product-designer",
     title: "Product Designer",
     team: "Design",
-    location: "Remote / Tokyo / SF",
+    location: "Remote / Tokyo",
     type: "Full-time",
-    intro: "Define the visual language and user experience of our enterprise platform. You'll work on complex problems and turn them into elegant, intuitive solutions.",
+    intro: "Define the visual language and user experience of our products. You'll work on complex problems and turn them into elegant, intuitive solutions.",
     responsibilities: [
       "Lead end-to-end product design from concept to implementation",
       "Create wireframes, prototypes, and high-fidelity designs",
@@ -72,7 +72,7 @@ export const roles: Role[] = [
     ],
     requirements: [
       "5+ years of product design experience",
-      "Strong portfolio demonstrating complex B2B or enterprise work",
+      "Strong portfolio demonstrating complex B2B or product work",
       "Proficiency in Figma and modern design tools",
       "Experience building and maintaining design systems",
       "Excellent communication and presentation skills",
@@ -103,11 +103,11 @@ export const roles: Role[] = [
     slug: "gtm-lead",
     title: "GTM Lead",
     team: "Business",
-    location: "SF / Remote",
+    location: "Remote / Tokyo",
     type: "Full-time",
     intro: "Build our go-to-market engine from scratch. You'll define how we reach customers, craft our positioning, and drive our initial revenue growth.",
     responsibilities: [
-      "Develop and execute go-to-market strategy for enterprise customers",
+      "Develop and execute go-to-market strategy for Web3 and AI products",
       "Build relationships with early design partners and customers",
       "Define positioning, messaging, and sales materials",
       "Hire and lead the initial sales and marketing team",
@@ -115,14 +115,14 @@ export const roles: Role[] = [
     ],
     requirements: [
       "8+ years in B2B SaaS sales, marketing, or business development",
-      "Experience selling to enterprise customers",
+      "Experience in Web3, crypto, or AI product marketing",
       "Track record of building GTM functions at early-stage companies",
       "Strong analytical skills and data-driven approach",
       "Excellent verbal and written communication",
     ],
     niceToHaves: [
       "Experience in AI/ML or data infrastructure space",
-      "Existing relationships with enterprise decision-makers",
+      "Existing relationships in the Web3 or AI ecosystem",
       "Previous founder or operator experience",
       "MBA or equivalent business education",
     ],
@@ -148,9 +148,9 @@ export const roles: Role[] = [
     team: "AI/ML",
     location: "Remote / Tokyo",
     type: "Full-time",
-    intro: "Push the boundaries of what's possible with AI. You'll research and implement state-of-the-art techniques that power our intelligence platform.",
+    intro: "Push the boundaries of what's possible with AI agents. You'll research and implement state-of-the-art techniques for autonomous value creation.",
     responsibilities: [
-      "Research and prototype new AI/ML approaches for enterprise use cases",
+      "Research and prototype new AI/ML approaches for autonomous agent systems",
       "Implement and optimize models for production deployment",
       "Collaborate with engineering to integrate research into the platform",
       "Stay current with latest developments in AI/ML research",
@@ -165,7 +165,7 @@ export const roles: Role[] = [
     ],
     niceToHaves: [
       "Experience with large language models and retrieval systems",
-      "Background in enterprise or B2B AI applications",
+      "Background in autonomous agents or Web3 AI applications",
       "Contributions to open-source ML projects",
       "Experience with distributed training at scale",
     ],
@@ -210,6 +210,6 @@ export function getFilteredRoles(filters: {
   })
 }
 
-export const locations = ["All", "Remote", "Tokyo", "SF"]
+export const locations = ["All", "Remote", "Tokyo"]
 export const teams = ["All", "Engineering", "Design", "Business", "AI/ML"]
 export const types = ["All", "Full-time", "Contract"]

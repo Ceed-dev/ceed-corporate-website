@@ -23,7 +23,7 @@ const howWeWork = [
 
 const roleDescriptions: Record<string, { description: string; responsibilities: string[] }> = {
   "founding-engineer": {
-    description: "エンジニアリングチームの基盤メンバーとして参加。技術的方向性を形作り、エンタープライズ・インテリジェンスを大規模に支えるコアシステムを構築します。",
+    description: "エンジニアリングチームの基盤メンバーとして参加。技術的方向性を形作り、AIエージェントとWeb3プロダクトのコアシステムを構築します。",
     responsibilities: [
       "コアプラットフォームインフラの設計・構築",
       "重要な技術的意思決定",
@@ -31,7 +31,7 @@ const roleDescriptions: Record<string, { description: string; responsibilities: 
     ],
   },
   "product-designer": {
-    description: "エンタープライズプラットフォームのビジュアル言語とユーザー体験を定義。複雑な問題をエレガントで直感的なソリューションに変えます。",
+    description: "プロダクトのビジュアル言語とユーザー体験を定義。複雑な問題をエレガントで直感的なソリューションに変えます。",
     responsibilities: [
       "エンドツーエンドのプロダクトデザインをリード",
       "デザインシステムの作成・維持",
@@ -47,7 +47,7 @@ const roleDescriptions: Record<string, { description: string; responsibilities: 
     ],
   },
   "research-engineer": {
-    description: "AIで可能なことの限界を押し広げる。インテリジェンスプラットフォームを支える最先端技術を研究・実装します。",
+    description: "AIエージェントで可能なことの限界を押し広げる。自律的な価値創出のための最先端技術を研究・実装します。",
     responsibilities: [
       "新しいAIアプローチの研究・プロトタイプ",
       "本番環境向けモデルの実装",
@@ -75,7 +75,7 @@ export default function RecruitPageJa() {
             Recruit
           </h1>
           <p className="mt-4 text-sm text-muted-foreground max-w-md leading-relaxed text-jp">
-            共に、変革的なテクノロジーをつくる。
+            AIエージェントとWeb3の未来を共に創る。
           </p>
         </div>
       </section>
@@ -84,10 +84,10 @@ export default function RecruitPageJa() {
       <section className="relative z-10 pt-8 lg:pt-12 pb-20 lg:pb-32 border-t border-border-hairline">
         <div className="container-editorial">
           <h2 className="text-display text-foreground max-w-4xl text-balance leading-[0.95] text-jp">
-            変革的なテクノロジーを構築するユニークな瞬間。
+            本質的な価値を生み出すAIエージェントを構築する、ユニークな瞬間。
           </h2>
           <p className="mt-8 lg:mt-12 text-base lg:text-lg text-muted-foreground max-w-xl leading-relaxed text-jp">
-            先進的なAI、クラウドインフラ、エンタープライズ需要の融合が、前例のない機会を生み出しています。
+            AIエージェント、Web3、分散型インフラの融合が、価値創出の前例のない機会を生み出しています。
           </p>
         </div>
       </section>

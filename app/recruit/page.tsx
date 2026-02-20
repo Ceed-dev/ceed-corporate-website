@@ -23,7 +23,7 @@ const howWeWork = [
 
 const roleDescriptions: Record<string, { description: string; responsibilities: string[] }> = {
   "founding-engineer": {
-    description: "Join as a foundational member of our engineering team. You'll shape the technical direction and build core systems that power enterprise intelligence at scale.",
+    description: "Join as a foundational member of our engineering team. You'll shape the technical direction and build core systems for AI agents and Web3 products.",
     responsibilities: [
       "Design and build core platform infrastructure",
       "Make critical technical decisions",
@@ -31,7 +31,7 @@ const roleDescriptions: Record<string, { description: string; responsibilities: 
     ],
   },
   "product-designer": {
-    description: "Define the visual language and user experience of our enterprise platform. You'll work on complex problems and turn them into elegant, intuitive solutions.",
+    description: "Define the visual language and user experience of our products. You'll work on complex problems and turn them into elegant, intuitive solutions.",
     responsibilities: [
       "Lead end-to-end product design",
       "Create and maintain design systems",
@@ -47,7 +47,7 @@ const roleDescriptions: Record<string, { description: string; responsibilities: 
     ],
   },
   "research-engineer": {
-    description: "Push the boundaries of what's possible with AI. You'll research and implement state-of-the-art techniques that power our intelligence platform.",
+    description: "Push the boundaries of what's possible with AI agents. You'll research and implement state-of-the-art techniques for autonomous value creation.",
     responsibilities: [
       "Research and prototype new AI approaches",
       "Implement models for production",
@@ -76,7 +76,7 @@ export default function RecruitPage() {
             Recruit
           </h1>
           <p className="mt-4 text-sm text-muted-foreground max-w-md leading-relaxed">
-            Join us to build transformative technology.
+            Join us to build the future of AI agents and Web3.
           </p>
         </div>
       </section>
@@ -85,10 +85,10 @@ export default function RecruitPage() {
       <section className="relative z-10 pt-8 lg:pt-12 pb-20 lg:pb-32 border-t border-border-hairline">
         <div className="container-editorial">
           <h2 className="text-display text-foreground max-w-4xl text-balance leading-[0.95]">
-            A unique moment to build transformative technology.
+            A unique moment to build AI agents that create real value.
           </h2>
           <p className="mt-8 lg:mt-12 text-base lg:text-lg text-muted-foreground max-w-xl leading-relaxed">
-            The convergence of advanced AI, cloud infrastructure, and enterprise demand creates an unprecedented opportunity.
+            The convergence of AI agents, Web3, and decentralized infrastructure creates an unprecedented opportunity for value creation.
           </p>
         </div>
       </section>

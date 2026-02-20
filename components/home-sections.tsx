@@ -8,7 +8,9 @@ const products = [
     id: "qube",
     name: "Qube",
     tagline: "PERFORMANCE-BASED GTM NETWORK FOR WEB3 IN ASIA",
-    jpDescription:
+    enDescription:
+      "A performance-based GTM network helping DeFi and on-chain products succeed in Asia.",
+    jaDescription:
       "DeFi・オンチェーンプロダクトのアジア展開を支援するパフォーマンスベースGTMネットワーク",
     url: "https://web.0xqube.xyz/",
   },
@@ -16,8 +18,10 @@ const products = [
     id: "hyperbuilder",
     name: "Hyperbuilder",
     tagline: "A HOME OF HYPERLIQUID BUILDERS",
-    jpDescription:
-      "金融特化のブロックチェーン「Hyperliquid」上のプロジェクトを支援するインキュベーター",
+    enDescription:
+      "Community and marketing support for the Hyperliquid ecosystem, hosting events and KOL campaigns.",
+    jaDescription:
+      "Hyperliquidエコシステムのコミュニティ＆マーケティング支援。イベント開催やKOLキャンペーンを展開",
     url: "https://www.hyperbuilder.co/",
   },
 ]
@@ -116,8 +120,8 @@ export function HomeSections({ lang = "en" }: HomeSectionsProps) {
                 </div>
 
                 <div className="mt-6 flex flex-col flex-1">
-                  <p className="text-sm text-muted-foreground leading-relaxed text-jp">
-                    「{product.jpDescription.replace(/^「|」$/g, "")}」
+                  <p className={`text-sm text-muted-foreground leading-relaxed ${lang === "ja" ? "text-jp" : ""}`}>
+                    {lang === "ja" ? product.jaDescription : product.enDescription}
                   </p>
                   <h3 className="mt-4 text-xl font-medium text-foreground">
                     {product.name}
