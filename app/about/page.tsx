@@ -136,7 +136,7 @@ export default function AboutPage() {
                         {item.label}
                       </span>
                       <span className="text-sm text-foreground break-all">
-                        {item.label === "Mail" ? (
+                        {item.label === "Email" ? (
                           <a
                             href={`mailto:${item.value}`}
                             className="hover:text-foreground/70 transition-colors"

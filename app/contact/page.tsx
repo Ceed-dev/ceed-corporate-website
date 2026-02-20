@@ -40,8 +40,9 @@ export default function ContactPage() {
     }
 
     setErrors({})
-    alert("Thank you for your message! We'll be in touch soon.")
-    setFormState({ name: "", email: "", message: "" })
+    const subject = encodeURIComponent(`Contact from ${formState.name}`)
+    const body = encodeURIComponent(formState.message)
+    window.location.href = `mailto:official@ceed.cloud?subject=${subject}&body=${body}`
   }
 
   return (

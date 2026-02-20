@@ -40,8 +40,9 @@ export default function ContactPageJa() {
     }
 
     setErrors({})
-    alert("メッセージをお送りいただきありがとうございます！")
-    setFormState({ name: "", email: "", message: "" })
+    const subject = encodeURIComponent(`${formState.name}からのお問い合わせ`)
+    const body = encodeURIComponent(formState.message)
+    window.location.href = `mailto:official@ceed.cloud?subject=${subject}&body=${body}`
   }
 
   return (

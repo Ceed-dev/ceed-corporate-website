@@ -1,42 +1,33 @@
-import Link from "next/link"
-import { ArrowRight } from "lucide-react"
-
 const newsItems = [
   {
     date: "2026年2月",
     category: "プロダクト",
     title: "Agent Build事業を正式に開始",
-    slug: "#",
   },
   {
     date: "2026年2月",
     category: "プロダクト",
     title: "HyperBuilderがHyperliquid以外のプロジェクトへB2B IRLイベントサービスを拡大",
-    slug: "#",
   },
   {
     date: "2026年1月",
     category: "会社",
     title: "Qubeの累計クライアント数が230社以上、6カ国に展開",
-    slug: "#",
   },
   {
     date: "2025年9月",
     category: "イベント",
     title: "HyperBuilderがKorea Blockchain Weekでパネル登壇",
-    slug: "#",
   },
   {
     date: "2025年8月",
     category: "イベント",
     title: "HyperBuilderが東京で初のコミュニティミートアップを開催",
-    slug: "#",
   },
   {
     date: "2024年1月",
     category: "会社",
     title: "株式会社Ceed 東京にて設立",
-    slug: "#",
   },
 ]
 
@@ -62,10 +53,9 @@ export default function NewsPageJa() {
         <div className="container-editorial pt-8 lg:pt-12">
           <div className="space-y-0">
             {newsItems.map((item, index) => (
-              <Link
+              <div
                 key={index}
-                href={item.slug}
-                className="group flex items-start justify-between gap-4 py-6 border-b border-border-hairline first:border-t focus-editorial"
+                className="flex items-start justify-between gap-4 py-6 border-b border-border-hairline first:border-t"
               >
                 <div className="flex items-start gap-6 flex-1 min-w-0">
                   <span className="text-micro text-muted-foreground/30 pt-1 w-28 flex-shrink-0 hidden sm:block text-jp">
@@ -80,13 +70,12 @@ export default function NewsPageJa() {
                         {item.date}
                       </span>
                     </div>
-                    <h2 className="text-base font-medium text-foreground group-hover:text-foreground/70 transition-colors text-balance text-jp">
+                    <h2 className="text-base font-medium text-foreground text-balance text-jp">
                       {item.title}
                     </h2>
                   </div>
                 </div>
-                <ArrowRight className="w-4 h-4 text-muted-foreground/30 group-hover:text-foreground group-hover:translate-x-1 transition-all flex-shrink-0 mt-1" />
-              </Link>
+              </div>
             ))}
           </div>
         </div>

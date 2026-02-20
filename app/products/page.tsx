@@ -6,7 +6,7 @@ const products = [
     name: "Qube",
     tagline: "PERFORMANCE-BASED GTM NETWORK FOR WEB3 IN ASIA",
     description:
-      "A performance-based GTM network helping DeFi and on-chain products succeed in Asia.",
+      "A performance-based GTM network helping DeFi and on-chain products succeed in Asia. Connecting 7,000+ KOLs across 6 countries with 230+ advertisers through smart contract-based on-chain tracking and instant reward distribution.",
     url: "https://web.0xqube.xyz/",
   },
   {
@@ -14,8 +14,15 @@ const products = [
     name: "Hyperbuilder",
     tagline: "A HOME OF HYPERLIQUID BUILDERS",
     description:
-      "Community and marketing support for the Hyperliquid ecosystem, hosting events and KOL campaigns.",
+      "Community and marketing support for the Hyperliquid ecosystem. Hosting IRL events and panel sessions, running KOL campaigns, and expanding into B2B event services for projects beyond Hyperliquid.",
     url: "https://www.hyperbuilder.co/",
+  },
+  {
+    id: "agent-build",
+    name: "Agent Build",
+    tagline: "AI AGENT SOLUTIONS FOR VALUE CREATION",
+    description:
+      "Custom AI agent solutions that create real value. Combining autonomous content generation, multi-platform distribution, and data-driven optimization to build AI agents that operate as independent economic participants.",
   },
 ]
 
@@ -72,17 +79,23 @@ export default function ProductsPage() {
                     {product.description}
                   </p>
 
-                  {/* Product name as subtle external link */}
+                  {/* Product name */}
                   <h2 className="mt-4">
-                    <a
-                      href={product.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-xl font-medium text-foreground hover:text-foreground/70 transition-colors"
-                    >
-                      {product.name}
-                      <ExternalLink className="h-4 w-4 text-muted-foreground/40" />
-                    </a>
+                    {product.url ? (
+                      <a
+                        href={product.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 text-xl font-medium text-foreground hover:text-foreground/70 transition-colors"
+                      >
+                        {product.name}
+                        <ExternalLink className="h-4 w-4 text-muted-foreground/40" />
+                      </a>
+                    ) : (
+                      <span className="text-xl font-medium text-foreground">
+                        {product.name}
+                      </span>
+                    )}
                   </h2>
 
                   {/* English tagline */}

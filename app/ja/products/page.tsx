@@ -6,7 +6,7 @@ const products = [
     name: "Qube",
     tagline: "PERFORMANCE-BASED GTM NETWORK FOR WEB3 IN ASIA",
     description:
-      "DeFi・オンチェーンプロダクトのアジア展開を支援するパフォーマンスベースGTMネットワーク",
+      "DeFi・オンチェーンプロダクトのアジア展開を支援するパフォーマンスベースGTMネットワーク。スマートコントラクトによるオンチェーントラッキングと即時報酬分配で、6カ国7,000以上のKOLと230社以上の広告主を接続。",
     url: "https://web.0xqube.xyz/",
   },
   {
@@ -14,8 +14,15 @@ const products = [
     name: "Hyperbuilder",
     tagline: "A HOME OF HYPERLIQUID BUILDERS",
     description:
-      "Hyperliquidエコシステムのコミュニティ＆マーケティング支援。イベント開催やKOLキャンペーンを展開",
+      "Hyperliquidエコシステムのコミュニティ＆マーケティング支援。IRLイベントやパネルセッションの開催、KOLキャンペーンの展開、Hyperliquid以外のプロジェクトへのB2Bイベントサービスも拡大中。",
     url: "https://www.hyperbuilder.co/",
+  },
+  {
+    id: "agent-build",
+    name: "Agent Build",
+    tagline: "AI AGENT SOLUTIONS FOR VALUE CREATION",
+    description:
+      "本質的な価値を生み出すカスタムAIエージェントソリューション。自律的なコンテンツ生成、マルチプラットフォーム配信、データドリブンな最適化を組み合わせ、独立した経済主体として機能するAIエージェントを構築。",
   },
 ]
 
@@ -67,17 +74,23 @@ export default function ProductsPageJa() {
                     {product.description}
                   </p>
 
-                  {/* Product name as subtle external link */}
+                  {/* Product name */}
                   <h2 className="mt-4">
-                    <a
-                      href={product.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-xl font-medium text-foreground hover:text-foreground/70 transition-colors"
-                    >
-                      {product.name}
-                      <ExternalLink className="h-4 w-4 text-muted-foreground/40" />
-                    </a>
+                    {product.url ? (
+                      <a
+                        href={product.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 text-xl font-medium text-foreground hover:text-foreground/70 transition-colors"
+                      >
+                        {product.name}
+                        <ExternalLink className="h-4 w-4 text-muted-foreground/40" />
+                      </a>
+                    ) : (
+                      <span className="text-xl font-medium text-foreground">
+                        {product.name}
+                      </span>
+                    )}
                   </h2>
 
                   <p className="mt-1 text-xs text-muted-foreground/50 tracking-wide uppercase">

@@ -24,6 +24,15 @@ const products = [
       "Hyperliquidエコシステムのコミュニティ＆マーケティング支援。イベント開催やKOLキャンペーンを展開",
     url: "https://www.hyperbuilder.co/",
   },
+  {
+    id: "agent-build",
+    name: "Agent Build",
+    tagline: "AI AGENT SOLUTIONS FOR VALUE CREATION",
+    enDescription:
+      "Custom AI agent solutions that create real value through autonomous content generation and optimization.",
+    jaDescription:
+      "自律的なコンテンツ生成と最適化で本質的な価値を生み出すカスタムAIエージェントソリューション",
+  },
 ]
 
 const newsItems = [
@@ -129,14 +138,16 @@ export function HomeSections({ lang = "en" }: HomeSectionsProps) {
                   <p className="mt-1 text-xs text-muted-foreground/50 tracking-wide uppercase">
                     {product.tagline}
                   </p>
-                  <div className="mt-6">
-                    <Button asChild size="sm" className="magnetic-hover">
-                      <a href={product.url} target="_blank" rel="noopener noreferrer">
-                        {t.visitSite}
-                        <ExternalLink className="ml-2 h-3.5 w-3.5" />
-                      </a>
-                    </Button>
-                  </div>
+                  {product.url && (
+                    <div className="mt-6">
+                      <Button asChild size="sm" className="magnetic-hover">
+                        <a href={product.url} target="_blank" rel="noopener noreferrer">
+                          {t.visitSite}
+                          <ExternalLink className="ml-2 h-3.5 w-3.5" />
+                        </a>
+                      </Button>
+                    </div>
+                  )}
                 </div>
               </article>
             ))}
