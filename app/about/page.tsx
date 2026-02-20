@@ -20,7 +20,7 @@ const companyInfo = [
   { label: "Email", value: "official@ceed.cloud" },
   {
     label: "Shareholders",
-    value: "Management team, KUSABI, Decima, basepartners, LINEヤフー VC, CARTA VENTURES, etc.",
+    value: "Management team, KUSABI, Decima, basepartners, ZVC, CARTA VENTURES, etc.",
   },
 ]
 

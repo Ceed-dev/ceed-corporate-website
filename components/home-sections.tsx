@@ -39,8 +39,10 @@ const newsItems = [
   { date: "Feb 2026", title: "Agent Build business officially launched" },
   { date: "Feb 2026", title: "HyperBuilder pivots to B2B IRL event services" },
   { date: "Jan 2026", title: "Qube reaches 230+ cumulative clients" },
+  { date: "Sep 2025", title: "Hyperliquid side event at Vietnam Blockchain Week" },
   { date: "Sep 2025", title: "HyperBuilder hosts panel at KBW Korea" },
-  { date: "Aug 2025", title: "HyperBuilder hosts first Tokyo meetup" },
+  { date: "Feb 2025", title: "Qube selected as Kaia Japan marketing partner" },
+  { date: "Nov 2024", title: "Completed pre-seed funding round" },
 ]
 
 interface HomeSectionsProps {

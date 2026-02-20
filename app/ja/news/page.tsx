@@ -17,12 +17,27 @@ const newsItems = [
   {
     date: "2025年9月",
     category: "イベント",
+    title: "ベトナムブロックチェーンweek期間中に、Hyperliquidのサイドイベントおよびグローバルのチームオフサイトを開催",
+  },
+  {
+    date: "2025年9月",
+    category: "イベント",
     title: "HyperBuilderがKorea Blockchain Weekでパネル登壇",
   },
   {
     date: "2025年8月",
     category: "イベント",
     title: "HyperBuilderが東京で初のコミュニティミートアップを開催",
+  },
+  {
+    date: "2025年2月",
+    category: "提携",
+    title: "「Qube」がLINE社と韓国Kakao社が共同開発するブロックチェーン「Kaia」の日本市場マーケティングパートナーに選出",
+  },
+  {
+    date: "2024年11月",
+    category: "会社",
+    title: "プレシードラウンドで資金調達を実施",
   },
   {
     date: "2024年1月",

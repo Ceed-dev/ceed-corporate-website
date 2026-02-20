@@ -17,12 +17,27 @@ const newsItems = [
   {
     date: "Sep 2025",
     category: "Event",
+    title: "Hosted Hyperliquid side event and global team offsite during Vietnam Blockchain Week",
+  },
+  {
+    date: "Sep 2025",
+    category: "Event",
     title: "HyperBuilder hosts panel at Korea Blockchain Week",
   },
   {
     date: "Aug 2025",
     category: "Event",
     title: "HyperBuilder hosts first Tokyo community meetup",
+  },
+  {
+    date: "Feb 2025",
+    category: "Partnership",
+    title: "Qube selected as Japan market marketing partner for Kaia blockchain (LINE / Kakao)",
+  },
+  {
+    date: "Nov 2024",
+    category: "Company",
+    title: "Completed pre-seed funding round",
   },
   {
     date: "Jan 2024",
