@@ -93,10 +93,10 @@ export function ManifestoStageHeroJa() {
               aria-hidden="true"
             >
               <span className="text-display text-foreground/[0.025] whitespace-nowrap block">
-                未来を創る
+                All for Value
               </span>
               <span className="text-display text-foreground/[0.015] whitespace-nowrap block -mt-4">
-                未来を創る
+                All for Value
               </span>
             </div>
 
@@ -107,7 +107,7 @@ export function ManifestoStageHeroJa() {
               }`}
             >
               <span className="text-lg lg:text-xl font-medium text-muted-foreground/70">
-                Build the future
+                We are Agent Builders
               </span>
             </div>
 
@@ -118,21 +118,14 @@ export function ManifestoStageHeroJa() {
                   prefersReducedMotion ? "" : "animate-line-reveal stagger-1"
                 }`}
               >
-                エンタープライズ
-              </span>
-              <span
-                className={`block text-display text-foreground text-balance leading-[0.92] text-jp ${
-                  prefersReducedMotion ? "" : "animate-line-reveal stagger-2"
-                }`}
-              >
-                インテリジェンスの
+                すべては
               </span>
               <span
                 className={`block text-display text-foreground/70 text-balance leading-[0.92] text-jp ${
-                  prefersReducedMotion ? "" : "animate-line-reveal stagger-3"
+                  prefersReducedMotion ? "" : "animate-line-reveal stagger-2"
                 }`}
               >
-                未来をつくる
+                バリューのために
               </span>
             </h1>
 
@@ -142,7 +135,7 @@ export function ManifestoStageHeroJa() {
                 prefersReducedMotion ? "" : "animate-slide-up stagger-4"
               }`}
             >
-              組織がデータを理解し、意思決定し、行動する方法を再発明するために、世界水準のチームをつくっています。
+              AIエージェントを構築し、Web3とAIの交差点で新しい価値創出の仕組みを作る。
             </p>
           </div>
         </div>

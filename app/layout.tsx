@@ -28,10 +28,9 @@ const ibmPlexMono = IBM_Plex_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Ceed | Build the future of enterprise intelligence",
+  title: "Ceed | All for Value",
   description:
-    "Join Ceed in reimagining how organizations understand and act on their data. View open roles and join our world-class team.",
-  generator: "v0.app",
+    "Ceed builds AI agents at the intersection of Web3 and AI, creating new frameworks for value creation. We are Agent Builders.",
   icons: {
     icon: [
       {

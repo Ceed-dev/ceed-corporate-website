@@ -102,10 +102,10 @@ export function ManifestoStageHero() {
               aria-hidden="true"
             >
               <span className="text-display text-foreground/[0.025] whitespace-nowrap block">
-                Build the future
+                All for Value
               </span>
               <span className="text-display text-foreground/[0.015] whitespace-nowrap block -mt-4">
-                Build the future
+                All for Value
               </span>
             </div>
 
@@ -116,7 +116,7 @@ export function ManifestoStageHero() {
               }`}
             >
               <span className="text-lg lg:text-xl font-medium text-muted-foreground/70 text-jp">
-                未来を創る
+                We are Agent Builders
               </span>
             </div>
 
@@ -127,21 +127,14 @@ export function ManifestoStageHero() {
                   prefersReducedMotion ? "" : "animate-line-reveal stagger-1"
                 }`}
               >
-                Build the future
-              </span>
-              <span
-                className={`block text-display text-foreground text-balance leading-[0.92] ${
-                  prefersReducedMotion ? "" : "animate-line-reveal stagger-2"
-                }`}
-              >
-                of enterprise
+                All for
               </span>
               <span
                 className={`block text-display text-foreground/70 text-balance leading-[0.92] ${
-                  prefersReducedMotion ? "" : "animate-line-reveal stagger-3"
+                  prefersReducedMotion ? "" : "animate-line-reveal stagger-2"
                 }`}
               >
-                intelligence
+                Value
               </span>
             </h1>
 
@@ -151,7 +144,7 @@ export function ManifestoStageHero() {
                 prefersReducedMotion ? "" : "animate-slide-up stagger-4"
               }`}
             >
-              We're assembling a world-class team to reimagine how organizations understand and act on their data.
+              Building AI agents at the intersection of Web3 and AI, creating new frameworks for value creation.
             </p>
           </div>
         </div>

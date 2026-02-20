@@ -3,39 +3,39 @@ import { ArrowRight } from "lucide-react"
 
 const newsItems = [
   {
-    date: "Jan 15, 2026",
-    category: "Company",
-    title: "Ceed announces Series A funding round",
-    slug: "#",
-  },
-  {
-    date: "Dec 20, 2025",
+    date: "Feb 2026",
     category: "Product",
-    title: "Hyperbuilder launches incubator program for Hyperliquid builders",
+    title: "Agent Build business officially launched",
     slug: "#",
   },
   {
-    date: "Nov 30, 2025",
-    category: "Partnership",
-    title: "Qube expands marketing coverage to Southeast Asia",
-    slug: "#",
-  },
-  {
-    date: "Oct 15, 2025",
-    category: "Team",
-    title: "We're hiring: Join our growing team in Tokyo and SF",
-    slug: "#",
-  },
-  {
-    date: "Sep 1, 2025",
+    date: "Feb 2026",
     category: "Product",
-    title: "Introducing Qube: Full-funnel marketing for crypto",
+    title: "HyperBuilder pivots to B2B IRL event services beyond Hyperliquid",
     slug: "#",
   },
   {
-    date: "Aug 10, 2025",
+    date: "Jan 2026",
     category: "Company",
-    title: "Ceed opens new office in San Francisco",
+    title: "Qube reaches 230+ cumulative clients across 6 countries",
+    slug: "#",
+  },
+  {
+    date: "Sep 2025",
+    category: "Event",
+    title: "HyperBuilder hosts panel at Korea Blockchain Week",
+    slug: "#",
+  },
+  {
+    date: "Aug 2025",
+    category: "Event",
+    title: "HyperBuilder hosts first Tokyo community meetup",
+    slug: "#",
+  },
+  {
+    date: "Jan 2024",
+    category: "Company",
+    title: "Ceed Inc. founded in Tokyo",
     slug: "#",
   },
 ]

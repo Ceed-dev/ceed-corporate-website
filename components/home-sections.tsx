@@ -7,9 +7,9 @@ const products = [
   {
     id: "qube",
     name: "Qube",
-    tagline: "FULL-FUNNEL MARKETING ACROSS JAPAN AND ASIA",
+    tagline: "PERFORMANCE-BASED GTM NETWORK FOR WEB3 IN ASIA",
     jpDescription:
-      "仮想通貨業界特化のアフィリエイトプラットフォーム+アジア全域をカバーするマーケティング代理店",
+      "DeFi・オンチェーンプロダクトのアジア展開を支援するパフォーマンスベースGTMネットワーク",
     url: "https://web.0xqube.xyz/",
   },
   {
@@ -23,11 +23,11 @@ const products = [
 ]
 
 const newsItems = [
-  { date: "Jan 15, 2026", title: "Ceed announces Series A funding round" },
-  { date: "Dec 20, 2025", title: "Hyperbuilder launches incubator program" },
-  { date: "Nov 30, 2025", title: "Qube expands to Southeast Asia" },
-  { date: "Oct 15, 2025", title: "We're hiring: Join our growing team" },
-  { date: "Sep 1, 2025", title: "Introducing Qube: Full-funnel marketing" },
+  { date: "Feb 2026", title: "Agent Build business officially launched" },
+  { date: "Feb 2026", title: "HyperBuilder pivots to B2B IRL event services" },
+  { date: "Jan 2026", title: "Qube reaches 230+ cumulative clients" },
+  { date: "Sep 2025", title: "HyperBuilder hosts panel at KBW Korea" },
+  { date: "Aug 2025", title: "HyperBuilder hosts first Tokyo meetup" },
 ]
 
 interface HomeSectionsProps {
@@ -37,28 +37,28 @@ interface HomeSectionsProps {
 export function HomeSections({ lang = "en" }: HomeSectionsProps) {
   const t = lang === "ja" ? {
     productHeading: "PRODUCT",
-    productIntro: "次世代のデジタルビジネスを支えるツールとプラットフォーム。",
+    productIntro: "Web3とAIの交差点で価値を生み出すプロダクト群。",
     visitSite: "サイトを見る",
     viewAllProducts: "プロダクト一覧",
     aboutHeading: "ABOUT",
-    aboutText: "Ceedは、組織がデータを理解し、意思決定し、行動する方法を再発明しています。複雑さを明瞭さに変える知的システムを構築しています。",
+    aboutText: "CeedはAIエージェントを構築し、Web3とAIの交差点で新しい価値創出の仕組みを作る集団です。すべてはバリューのために。",
     readMore: "詳しく見る",
     recruitHeading: "RECRUIT",
-    recruitText: "AIと企業インフラの交差点で、世界水準のチームを構築しています。変革的なテクノロジーを構築するユニークな瞬間です。",
+    recruitText: "Web3とAIの交差点で、次世代の価値創出を担うチームを構築しています。",
     viewRoles: "募集職種を見る",
     newsHeading: "NEWS",
     allNews: "ニュース一覧",
     rolesOpen: "募集中",
   } : {
     productHeading: "PRODUCT",
-    productIntro: "Tools and platforms powering the next generation of digital businesses.",
+    productIntro: "Products creating value at the intersection of Web3 and AI.",
     visitSite: "Visit site",
     viewAllProducts: "View all products",
     aboutHeading: "ABOUT",
-    aboutText: "Ceed is reimagining how organizations understand and act on their data. We're building intelligent systems that transform complexity into clarity.",
+    aboutText: "Ceed builds AI agents and creates new frameworks for value creation at the intersection of Web3 and AI. All for Value.",
     readMore: "Read more",
     recruitHeading: "RECRUIT",
-    recruitText: "We're building a world-class team at the intersection of AI and enterprise infrastructure. A unique moment to build transformative technology.",
+    recruitText: "We're building a team at the intersection of Web3 and AI to create the next generation of value.",
     viewRoles: "View roles",
     newsHeading: "NEWS",
     allNews: "All news",

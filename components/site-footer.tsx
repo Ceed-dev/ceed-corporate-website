@@ -37,7 +37,7 @@ export function SiteFooter() {
             Ceed
           </Link>
           <p className="mt-3 text-sm text-muted-foreground max-w-xs leading-relaxed">
-            {isJa ? "エンタープライズ・インテリジェンスを構築。" : "Building enterprise intelligence."}
+            {isJa ? "All for Value — すべてはバリューのために。" : "All for Value."}
           </p>
         </div>
 

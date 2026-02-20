@@ -4,9 +4,9 @@ const products = [
   {
     id: "qube",
     name: "Qube",
-    tagline: "FULL-FUNNEL MARKETING ACROSS JAPAN AND ASIA",
+    tagline: "PERFORMANCE-BASED GTM NETWORK FOR WEB3 IN ASIA",
     jpDescription:
-      "仮想通貨業界特化のアフィリエイトプラットフォーム+アジア全域をカバーするマーケティング代理店",
+      "DeFi・オンチェーンプロダクトのアジア展開を支援するパフォーマンスベースGTMネットワーク",
     url: "https://web.0xqube.xyz/",
   },
   {
@@ -35,8 +35,7 @@ export default function ProductsPage() {
             Products
           </h1>
           <p className="mt-4 text-sm text-muted-foreground max-w-md leading-relaxed">
-            Tools and platforms powering the next generation of digital
-            businesses.
+            Web3とAIの交差点で価値を生み出すプロダクト群。
           </p>
         </div>
       </section>

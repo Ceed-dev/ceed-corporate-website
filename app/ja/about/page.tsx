@@ -2,10 +2,9 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
 const team = [
-  { name: "Alex Chen", role: "共同創業者・CEO", initials: "AC" },
-  { name: "Yuki Tanaka", role: "共同創業者・CTO", initials: "YT" },
-  { name: "Sarah Kim", role: "プロダクト責任者", initials: "SK" },
-  { name: "Marcus Johnson", role: "エンジニアリング責任者", initials: "MJ" },
+  { name: "高橋勇作 (Zach)", role: "創業者・CEO", initials: "ZT" },
+  { name: "Badhan", role: "共同創業者・COO", initials: "BD" },
+  { name: "木村駿吾 (Shungo)", role: "CTO / エンジニアリングリード", initials: "SK" },
 ]
 
 const companyInfo = [
@@ -17,11 +16,11 @@ const companyInfo = [
   },
   { label: "設立", value: "2024年1月" },
   { label: "代表", value: "高橋勇作" },
-  { label: "社員数", value: "12名(業務委託含む)" },
+  { label: "社員数", value: "約15名(業務委託含む)" },
   { label: "Mail", value: "official@ceed.cloud" },
   {
     label: "株主",
-    value: "経営陣・KUSABI・Decima・basepartners・ZVC・CARTA VENTURES等",
+    value: "経営陣・KUSABI・Decima・basepartners・LINEヤフー VC・CARTA VENTURES等",
   },
 ]
 
@@ -55,7 +54,7 @@ export default function AboutPageJa() {
             ミッション
           </span>
           <p className="text-headline text-foreground max-w-3xl leading-tight text-balance text-jp">
-            複雑さを明瞭さに変える知的システムで、組織に力を与える。
+            All for Value — すべてはバリューのために。プロジェクト・クリエイター・ユーザー、すべてのステークホルダーに本質的な価値を届ける。
           </p>
         </div>
       </section>
@@ -73,7 +72,7 @@ export default function AboutPageJa() {
               </p>
             </div>
             <div className="lg:col-span-8">
-              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {team.map((member, index) => (
                   <div key={index} className="hairline-panel p-5">
                     <div className="flex items-center justify-center w-10 h-10 rounded-full bg-muted text-muted-foreground text-xs font-medium mb-4">

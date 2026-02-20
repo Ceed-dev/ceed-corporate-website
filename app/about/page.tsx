@@ -2,10 +2,9 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
 const team = [
-  { name: "Alex Chen", role: "Co-founder & CEO", initials: "AC" },
-  { name: "Yuki Tanaka", role: "Co-founder & CTO", initials: "YT" },
-  { name: "Sarah Kim", role: "Head of Product", initials: "SK" },
-  { name: "Marcus Johnson", role: "Head of Engineering", initials: "MJ" },
+  { name: "Zach Takahashi", role: "Founder & CEO", initials: "ZT" },
+  { name: "Badhan", role: "Co-founder & COO", initials: "BD" },
+  { name: "Shungo Kimura", role: "CTO / Engineering Lead", initials: "SK" },
 ]
 
 const companyInfo = [
@@ -17,11 +16,11 @@ const companyInfo = [
   },
   { label: "Founded", value: "January 2024" },
   { label: "Representative", value: "Yusaku Takahashi" },
-  { label: "Team size", value: "12 (including contractors)" },
+  { label: "Team size", value: "Approx. 15 (including contractors)" },
   { label: "Email", value: "official@ceed.cloud" },
   {
     label: "Shareholders",
-    value: "Management team, KUSABI, Decima, basepartners, ZVC, CARTA VENTURES, etc.",
+    value: "Management team, KUSABI, Decima, basepartners, LINEヤフー VC, CARTA VENTURES, etc.",
   },
 ]
 
@@ -56,8 +55,7 @@ export default function AboutPage() {
             Our mission
           </span>
           <p className="text-headline text-foreground max-w-3xl leading-tight text-balance">
-            To empower organizations with intelligent systems that transform
-            complexity into clarity.
+            All for Value — Delivering essential value to all stakeholders: projects, creators, and users.
           </p>
         </div>
       </section>
@@ -75,7 +73,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="lg:col-span-8">
-              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
                 {team.map((member, index) => (
                   <div key={index} className="hairline-panel p-5">
                     <div className="flex items-center justify-center w-10 h-10 rounded-full bg-muted text-muted-foreground text-xs font-medium mb-4">

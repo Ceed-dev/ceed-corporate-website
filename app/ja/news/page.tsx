@@ -3,39 +3,39 @@ import { ArrowRight } from "lucide-react"
 
 const newsItems = [
   {
-    date: "2026年1月15日",
-    category: "会社",
-    title: "CeedがシリーズA資金調達を発表",
-    slug: "#",
-  },
-  {
-    date: "2025年12月20日",
+    date: "2026年2月",
     category: "プロダクト",
-    title: "HyperbuilderがHyperliquidビルダー向けインキュベータープログラムを開始",
+    title: "Agent Build事業を正式に開始",
     slug: "#",
   },
   {
-    date: "2025年11月30日",
-    category: "パートナーシップ",
-    title: "Qubeが東南アジアへマーケティングカバレッジを拡大",
-    slug: "#",
-  },
-  {
-    date: "2025年10月15日",
-    category: "チーム",
-    title: "採用中：東京とSFで成長するチームに参加しませんか",
-    slug: "#",
-  },
-  {
-    date: "2025年9月1日",
+    date: "2026年2月",
     category: "プロダクト",
-    title: "Qube発表：仮想通貨向けフルファネルマーケティング",
+    title: "HyperBuilderがHyperliquid以外のプロジェクトへB2B IRLイベントサービスを拡大",
     slug: "#",
   },
   {
-    date: "2025年8月10日",
+    date: "2026年1月",
     category: "会社",
-    title: "Ceedがサンフランシスコに新オフィスをオープン",
+    title: "Qubeの累計クライアント数が230社以上、6カ国に展開",
+    slug: "#",
+  },
+  {
+    date: "2025年9月",
+    category: "イベント",
+    title: "HyperBuilderがKorea Blockchain Weekでパネル登壇",
+    slug: "#",
+  },
+  {
+    date: "2025年8月",
+    category: "イベント",
+    title: "HyperBuilderが東京で初のコミュニティミートアップを開催",
+    slug: "#",
+  },
+  {
+    date: "2024年1月",
+    category: "会社",
+    title: "株式会社Ceed 東京にて設立",
     slug: "#",
   },
 ]
