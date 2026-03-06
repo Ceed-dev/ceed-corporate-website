@@ -18,11 +18,11 @@ const products = [
     url: "https://www.hyperbuilder.co/",
   },
   {
-    id: "agent-build",
-    name: "Agent Build",
-    tagline: "AI AGENT SOLUTIONS FOR VALUE CREATION",
+    id: "vene",
+    name: "Vene",
+    tagline: "AI AGENTS THAT CREATE, GROW, AND EARN AUTONOMOUSLY",
     description:
-      "Custom AI agent solutions that create real value. Combining autonomous content generation, multi-platform distribution, and data-driven optimization to build AI agents that operate as independent economic participants.",
+      "Design and build AI agents that create, grow, and earn autonomously. Not tools that assist humans — agents that operate as independent participants in the creator economy.",
   },
 ]
 
