@@ -22,8 +22,8 @@ export const copy = {
         title: "What we build",
         items: [
           {
-            title: "AI Agent Solutions",
-            description: "Autonomous AI agents that create real value across Web3 and beyond.",
+            title: "Vene",
+            description: "Design and build AI agents that create, grow, and earn autonomously. Not tools that assist humans — agents that operate as independent participants in the creator economy.",
           },
           {
             title: "Performance GTM Network",
@@ -206,8 +206,8 @@ export const copy = {
         title: "プロダクト",
         items: [
           {
-            title: "AIエージェントソリューション",
-            description: "Web3とAIの交差点で本質的な価値を生み出す自律型AIエージェント。",
+            title: "Vene",
+            description: "自律的にコンテンツを創出し、オーディエンスを育て、収益を生み出すAIエージェントを設計・構築。人間を補助するツールではなく、クリエイターエコノミーの独立した参加者として機能するエージェント。",
           },
           {
             title: "パフォーマンスGTMネットワーク",
