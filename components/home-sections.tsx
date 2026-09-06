@@ -1,37 +1,27 @@
 import Link from "next/link"
-import { ArrowRight, ExternalLink } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { ArrowRight } from "lucide-react"
 import { roles } from "@/lib/roles"
 
-const products = [
+const businesses = [
   {
-    id: "qube",
-    name: "Qube",
-    tagline: "PERFORMANCE-BASED GTM NETWORK FOR WEB3 IN ASIA",
+    id: "content-growth",
+    label: "CONTENT GROWTH",
+    enName: "Social media management & video production",
+    jaName: "SNS運用・動画制作",
     enDescription:
-      "A performance-based GTM network helping DeFi and on-chain products succeed in Asia.",
+      "We support audience growth through social media planning, management, video production, and post analysis.",
     jaDescription:
-      "DeFi・オンチェーンプロダクトのアジア展開を支援するパフォーマンスベースGTMネットワーク",
-    url: "https://web.0xqube.xyz/",
+      "SNSの企画・運用と動画制作、投稿分析を通じて、集客・認知拡大を支援します。",
   },
   {
-    id: "hyperbuilder",
-    name: "Hyperbuilder",
-    tagline: "A HOME OF HYPERLIQUID BUILDERS",
+    id: "business-transformation",
+    label: "BUSINESS TRANSFORMATION",
+    enName: "AI adoption & business process improvement",
+    jaName: "AI導入・業務効率化支援",
     enDescription:
-      "Community and marketing support for the Hyperliquid ecosystem, hosting events and KOL campaigns.",
+      "We implement AI systems and automate data aggregation and reporting around existing business workflows.",
     jaDescription:
-      "Hyperliquidエコシステムのコミュニティ＆マーケティング支援。イベント開催やKOLキャンペーンを展開",
-    url: "https://www.hyperbuilder.co/",
-  },
-  {
-    id: "agent-build",
-    name: "Agent Build",
-    tagline: "AI AGENT SOLUTIONS FOR VALUE CREATION",
-    enDescription:
-      "Custom AI agent solutions that create real value through autonomous content generation and optimization.",
-    jaDescription:
-      "自律的なコンテンツ生成と最適化で本質的な価値を生み出すカスタムAIエージェントソリューション",
+      "業務に合わせたAIシステムの導入、データ集計・レポート作成の自動化を支援します。",
   },
 ]
 
@@ -51,12 +41,11 @@ interface HomeSectionsProps {
 
 export function HomeSections({ lang = "en" }: HomeSectionsProps) {
   const t = lang === "ja" ? {
-    productHeading: "PRODUCT",
-    productIntro: "Web3とAIの交差点で価値を生み出すプロダクト群。",
-    visitSite: "サイトを見る",
-    viewAllProducts: "プロダクト一覧",
+    productHeading: "BUSINESS",
+    productIntro: "SNS運用・動画制作と、AI導入・業務効率化支援。",
+    viewAllProducts: "事業紹介を見る",
     aboutHeading: "ABOUT",
-    aboutText: "CeedはAIエージェントを構築し、Web3とAIの交差点で新しい価値創出の仕組みを作る集団です。すべてはバリューのために。",
+    aboutText: "Ceedは、SNSアカウントの運用と動画制作、AI導入・業務効率化を支援する会社です。運用とシステム構築の両方を手がけています。",
     readMore: "詳しく見る",
     recruitHeading: "RECRUIT",
     recruitText: "Web3とAIの交差点で、次世代の価値創出を担うチームを構築しています。",
@@ -65,12 +54,11 @@ export function HomeSections({ lang = "en" }: HomeSectionsProps) {
     allNews: "ニュース一覧",
     rolesOpen: "募集中",
   } : {
-    productHeading: "PRODUCT",
-    productIntro: "Products creating value at the intersection of Web3 and AI.",
-    visitSite: "Visit site",
-    viewAllProducts: "View all products",
+    productHeading: "BUSINESS",
+    productIntro: "Social media and video production. AI adoption and business efficiency.",
+    viewAllProducts: "Explore our business",
     aboutHeading: "ABOUT",
-    aboutText: "Ceed builds AI agents and creates new frameworks for value creation at the intersection of Web3 and AI. All for Value.",
+    aboutText: "Ceed provides social media management, video production, AI adoption, and business process improvement. We handle both ongoing operations and systems development.",
     readMore: "Read more",
     recruitHeading: "RECRUIT",
     recruitText: "We're building a team at the intersection of Web3 and AI to create the next generation of value.",
@@ -101,7 +89,7 @@ export function HomeSections({ lang = "en" }: HomeSectionsProps) {
         </div>
       </section>
 
-      {/* PRODUCT SECTION */}
+      {/* BUSINESS SECTION */}
       <section id="product" className="relative z-10 py-20 lg:py-32 border-t border-border-hairline scroll-mt-20">
         <div className="container-editorial">
           <h2 className="text-display text-foreground mb-4">{t.productHeading}</h2>
@@ -110,8 +98,8 @@ export function HomeSections({ lang = "en" }: HomeSectionsProps) {
           </p>
 
           <div className="grid gap-8 md:grid-cols-2">
-            {products.map((product) => (
-              <article key={product.id} className="group flex flex-col">
+            {businesses.map((business) => (
+              <article key={business.id} className="group flex flex-col">
                 {/* Media placeholder */}
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-sm border border-border-hairline bg-muted/30">
                   <div className="absolute inset-0">
@@ -125,31 +113,21 @@ export function HomeSections({ lang = "en" }: HomeSectionsProps) {
                   </div>
                   <div className="absolute inset-0 flex items-center justify-center">
                     <span className="text-2xl font-medium text-foreground/10 tracking-tight">
-                      {product.name}
+                      {business.label}
                     </span>
                   </div>
                 </div>
 
                 <div className="mt-6 flex flex-col flex-1">
                   <p className={`text-sm text-muted-foreground leading-relaxed ${lang === "ja" ? "text-jp" : ""}`}>
-                    {lang === "ja" ? product.jaDescription : product.enDescription}
+                    {lang === "ja" ? business.jaDescription : business.enDescription}
                   </p>
                   <h3 className="mt-4 text-xl font-medium text-foreground">
-                    {product.name}
+                    {lang === "ja" ? business.jaName : business.enName}
                   </h3>
                   <p className="mt-1 text-xs text-muted-foreground/50 tracking-wide uppercase">
-                    {product.tagline}
+                    {business.label}
                   </p>
-                  {product.url && (
-                    <div className="mt-6">
-                      <Button asChild size="sm" className="magnetic-hover">
-                        <a href={product.url} target="_blank" rel="noopener noreferrer">
-                          {t.visitSite}
-                          <ExternalLink className="ml-2 h-3.5 w-3.5" />
-                        </a>
-                      </Button>
-                    </div>
-                  )}
                 </div>
               </article>
             ))}

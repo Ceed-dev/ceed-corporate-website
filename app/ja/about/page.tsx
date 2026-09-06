@@ -1,11 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-
-const team = [
-  { name: "高橋勇作 (Zach)", role: "創業者・CEO", initials: "ZT" },
-  { name: "Badhan", role: "共同創業者・COO", initials: "BD" },
-  { name: "木村駿吾 (Shungo)", role: "CTO / エンジニアリングリード", initials: "SK" },
-]
+import { TeamGrid } from "@/components/team-grid"
 
 const companyInfo = [
   { label: "会社名", value: "株式会社Ceed" },
@@ -72,21 +67,7 @@ export default function AboutPageJa() {
               </p>
             </div>
             <div className="lg:col-span-8">
-              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                {team.map((member, index) => (
-                  <div key={index} className="hairline-panel p-5">
-                    <div className="flex items-center justify-center w-10 h-10 rounded-full bg-muted text-muted-foreground text-xs font-medium mb-4">
-                      {member.initials}
-                    </div>
-                    <h3 className="text-sm font-medium text-foreground">
-                      {member.name}
-                    </h3>
-                    <p className="mt-0.5 text-xs text-muted-foreground/60 text-jp">
-                      {member.role}
-                    </p>
-                  </div>
-                ))}
-              </div>
+              <TeamGrid lang="ja" />
             </div>
           </div>
         </div>

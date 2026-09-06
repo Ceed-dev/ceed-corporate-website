@@ -30,23 +30,9 @@ const ibmPlexMono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   title: "Ceed | All for Value",
   description:
-    "Ceed builds AI agents at the intersection of Web3 and AI, creating new frameworks for value creation. We are Agent Builders.",
+    "Ceed provides social media management, video production, AI adoption, and business process improvement.",
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/icon.svg",
   },
 }
 

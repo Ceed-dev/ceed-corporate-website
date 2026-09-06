@@ -11,7 +11,7 @@ import { LanguageTabs } from "@/components/language-tabs"
 
 const navLinksEn = [
   { href: "/about", label: "About" },
-  { href: "/products", label: "Product" },
+  { href: "/products", label: "Business" },
   { href: "/recruit", label: "Recruit" },
   { href: "/news", label: "News" },
   { href: "/contact", label: "Contact" },
@@ -19,7 +19,7 @@ const navLinksEn = [
 
 const navLinksJa = [
   { href: "/ja/about", label: "About" },
-  { href: "/ja/products", label: "Product" },
+  { href: "/ja/products", label: "Business" },
   { href: "/ja/recruit", label: "Recruit" },
   { href: "/ja/news", label: "News" },
   { href: "/ja/contact", label: "Contact" },

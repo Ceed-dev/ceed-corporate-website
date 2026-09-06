@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation"
 const indexLinksEn = [
   { href: "/contact", label: "Contact" },
   { href: "/about", label: "About" },
-  { href: "/products", label: "Product" },
+  { href: "/products", label: "Business" },
   { href: "/recruit", label: "Recruit" },
   { href: "/news", label: "News" },
 ]
@@ -14,7 +14,7 @@ const indexLinksEn = [
 const indexLinksJa = [
   { href: "/ja/contact", label: "Contact" },
   { href: "/ja/about", label: "About" },
-  { href: "/ja/products", label: "Product" },
+  { href: "/ja/products", label: "Business" },
   { href: "/ja/recruit", label: "Recruit" },
   { href: "/ja/news", label: "News" },
 ]
