@@ -6,24 +6,28 @@ const members = [
   {
     id: "zach",
     photo: "/team/zach.jpg",
+    imageClass: "object-contain scale-[0.78] origin-bottom",
     name: { ja: "高橋勇作", en: "Zach (Yusaku Takahashi)" },
     role: { ja: "共同創業者", en: "Co-founder" },
   },
   {
     id: "mia",
     photo: "/team/mia.png",
+    imageClass: "object-cover object-center",
     name: { ja: "Mia Badhan", en: "Mia Badhan" },
     role: { ja: "共同創業者・COO", en: "Co-founder & COO" },
   },
   {
     id: "shungo",
     photo: "/team/shungo.jpg",
+    imageClass: "object-cover object-center",
     name: { ja: "木村駿牙", en: "Shungo Kimura" },
     role: { ja: "エンジニア", en: "Engineer" },
   },
   {
     id: "srijan",
     photo: "/team/srijan.jpg",
+    imageClass: "object-cover scale-[1.45] origin-bottom",
     name: { ja: "Srijan", en: "Srijan" },
     role: { ja: "事業開発", en: "Business Development" },
   },
@@ -43,7 +47,7 @@ export function TeamGrid({ lang }: { lang: Lang }) {
               alt={`${member.name[lang]}${lang === "ja" ? "のプロフィール写真" : " profile photo"}`}
               fill
               sizes="(min-width: 1024px) 22vw, (min-width: 640px) 40vw, 90vw"
-              className="object-cover grayscale"
+              className={`${member.imageClass} grayscale`}
             />
           </div>
           <div className="p-5">
