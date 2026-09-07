@@ -6,7 +6,7 @@ const members = [
   {
     id: "zach",
     photo: "/team/zach.jpg",
-    imageClass: "object-contain scale-[0.78] origin-bottom",
+    imageClass: "object-contain scale-[0.78] -translate-y-[22%] origin-bottom",
     name: { ja: "高橋勇作", en: "Zach (Yusaku Takahashi)" },
     role: { ja: "共同創業者", en: "Co-founder" },
   },
@@ -20,14 +20,14 @@ const members = [
   {
     id: "shungo",
     photo: "/team/shungo.jpg",
-    imageClass: "object-cover object-center",
+    imageClass: "object-cover object-center -translate-y-[3%]",
     name: { ja: "木村駿牙", en: "Shungo Kimura" },
     role: { ja: "エンジニア", en: "Engineer" },
   },
   {
     id: "srijan",
     photo: "/team/srijan.jpg",
-    imageClass: "object-cover scale-[1.45] origin-bottom",
+    imageClass: "object-cover scale-[1.45] translate-y-[18%] origin-bottom",
     name: { ja: "Srijan", en: "Srijan" },
     role: { ja: "事業開発", en: "Business Development" },
   },
@@ -41,7 +41,7 @@ export function TeamGrid({ lang }: { lang: Lang }) {
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {members.map((member) => (
         <article key={member.id} className="hairline-panel overflow-hidden">
-          <div className="relative aspect-[4/3] bg-muted/30 border-b border-border-hairline">
+          <div className="relative aspect-[4/3] overflow-hidden bg-muted/30 border-b border-border-hairline">
             <Image
               src={member.photo}
               alt={`${member.name[lang]}${lang === "ja" ? "のプロフィール写真" : " profile photo"}`}
