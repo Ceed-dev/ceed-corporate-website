@@ -31,12 +31,16 @@ const members = [
     name: { ja: "Srijan", en: "Srijan" },
     role: { ja: "事業開発", en: "Business Development" },
   },
+  {
+    id: "tomo",
+    photo: "/team/tomo.png",
+    imageClass: "object-cover object-center",
+    name: { ja: "鈴田智仁", en: "Tomo Suzuta" },
+    role: { ja: "クリエイティブテクノロジスト", en: "Creative Technologist" },
+  },
 ] as const
 
 export function TeamGrid({ lang }: { lang: Lang }) {
-  const pending = lang === "ja" ? "新メンバー（素材待ち）" : "New member (details pending)"
-  const pendingRole = lang === "ja" ? "氏名・役職・写真を差し替え予定" : "Name, role and photo to be added"
-
   return (
     <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
       {members.map((member) => (
@@ -53,17 +57,6 @@ export function TeamGrid({ lang }: { lang: Lang }) {
           <div className="p-5">
             <h3 className={`text-sm font-medium text-foreground ${lang === "ja" ? "text-jp" : ""}`}>{member.name[lang]}</h3>
             <p className={`mt-1 text-xs text-muted-foreground ${lang === "ja" ? "text-jp" : ""}`}>{member.role[lang]}</p>
-          </div>
-        </article>
-      ))}
-      {[1, 2].map((slot) => (
-        <article key={slot} className="hairline-panel overflow-hidden border-dashed" aria-label={pending}>
-          <div className="aspect-[4/3] bg-muted/20 border-b border-dashed border-border-hairline flex items-center justify-center">
-            <span className="text-micro text-muted-foreground">PHOTO PENDING</span>
-          </div>
-          <div className="p-5">
-            <h3 className={`text-sm font-medium text-muted-foreground ${lang === "ja" ? "text-jp" : ""}`}>{pending}</h3>
-            <p className={`mt-1 text-xs text-muted-foreground ${lang === "ja" ? "text-jp" : ""}`}>{pendingRole}</p>
           </div>
         </article>
       ))}
