@@ -116,7 +116,7 @@ export function ManifestoStageHero() {
               }`}
             >
               <span className="text-lg lg:text-xl font-medium text-muted-foreground/70 text-jp">
-                We are Agent Builders
+                All for Value
               </span>
             </div>
 
