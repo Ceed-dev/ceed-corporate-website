@@ -1,3 +1,4 @@
+import Image from "next/image"
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import { roles } from "@/lib/roles"
@@ -12,6 +13,9 @@ const businesses = [
       "We support audience growth through social media planning, management, video production, and post analysis.",
     jaDescription:
       "SNSの企画・運用と動画制作、投稿分析を通じて、集客・認知拡大を支援します。",
+    image: "/business/content-growth-v1.webp",
+    enImageAlt: "A team producing and analyzing short-form social media video",
+    jaImageAlt: "ショート動画を撮影・編集し、投稿結果を分析する制作チーム",
   },
   {
     id: "business-transformation",
@@ -22,6 +26,9 @@ const businesses = [
       "We implement AI systems and automate data aggregation and reporting around existing business workflows.",
     jaDescription:
       "業務に合わせたAIシステムの導入、データ集計・レポート作成の自動化を支援します。",
+    image: "/business/business-transformation-v1.webp",
+    enImageAlt: "A team reviewing an automated business reporting dashboard",
+    jaImageAlt: "自動化された業務レポート画面を確認する担当者とエンジニア",
   },
 ]
 
@@ -100,22 +107,15 @@ export function HomeSections({ lang = "en" }: HomeSectionsProps) {
           <div className="grid gap-8 md:grid-cols-2">
             {businesses.map((business) => (
               <article key={business.id} className="group flex flex-col">
-                {/* Media placeholder */}
                 <div className="relative aspect-[4/3] w-full overflow-hidden rounded-sm border border-border-hairline bg-muted/30">
-                  <div className="absolute inset-0">
-                    <div
-                      className="absolute inset-0 opacity-[0.04]"
-                      style={{
-                        backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E")`,
-                      }}
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-br from-foreground/[0.02] via-transparent to-foreground/[0.04]" />
-                  </div>
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <span className="text-2xl font-medium text-foreground/10 tracking-tight">
-                      {business.label}
-                    </span>
-                  </div>
+                  <Image
+                    src={business.image}
+                    alt={lang === "ja" ? business.jaImageAlt : business.enImageAlt}
+                    fill
+                    sizes="(min-width: 768px) 50vw, 100vw"
+                    className="object-cover saturate-[0.72] contrast-[0.96] transition-transform duration-700 group-hover:scale-[1.015]"
+                  />
+                  <div className="absolute inset-0 bg-foreground/[0.03] mix-blend-multiply pointer-events-none" aria-hidden="true" />
                 </div>
 
                 <div className="mt-6 flex flex-col flex-1">
