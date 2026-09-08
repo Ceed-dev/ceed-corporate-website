@@ -5,8 +5,8 @@ type Lang = "en" | "ja"
 const members = [
   {
     id: "zach",
-    photo: "/team/zach.jpg",
-    imageClass: "object-contain scale-[0.78] -translate-y-[22%] origin-bottom",
+    photo: "/team/zach-cutout-v2.png",
+    imageClass: "object-contain object-center scale-[0.68] -translate-y-[31%] origin-bottom",
     name: { ja: "高橋勇作", en: "Zach (Yusaku Takahashi)" },
     role: { ja: "共同創業者", en: "Co-founder" },
   },
