@@ -6,9 +6,9 @@ const members = [
   {
     id: "zach",
     photo: "/team/zach-cutout-v2.png",
-    imageClass: "object-contain object-center scale-[0.68] -translate-y-[31%] origin-bottom",
+    imageClass: "object-contain object-center scale-[0.90] -translate-y-[8%] origin-bottom",
     name: { ja: "高橋勇作", en: "Zach (Yusaku Takahashi)" },
-    role: { ja: "共同創業者", en: "Co-founder" },
+    role: { ja: "共同創業者・CEO", en: "Co-founder & CEO" },
   },
   {
     id: "mia",
@@ -22,7 +22,7 @@ const members = [
     photo: "/team/shungo.jpg",
     imageClass: "object-cover object-center -translate-y-[3%]",
     name: { ja: "木村駿牙", en: "Shungo Kimura" },
-    role: { ja: "エンジニア", en: "Engineer" },
+    role: { ja: "リードエンジニア", en: "Lead Engineer" },
   },
   {
     id: "srijan",
