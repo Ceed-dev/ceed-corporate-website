@@ -34,7 +34,7 @@ const members = [
   {
     id: "tomo",
     photo: "/team/tomo.png",
-    imageClass: "object-cover object-center",
+    imageClass: "object-contain object-center scale-[0.82] -translate-y-[10%] origin-bottom",
     name: { ja: "鈴田智仁", en: "Tomo Suzuta" },
     role: { ja: "クリエイティブテクノロジスト", en: "Creative Technologist" },
   },
