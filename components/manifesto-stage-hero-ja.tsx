@@ -111,21 +111,21 @@ export function ManifestoStageHeroJa() {
               </span>
             </div>
 
-            {/* Main manifesto headline - Japanese */}
+            {/* Main manifesto headline - shared English brand statement */}
             <h1 className="relative">
               <span
-                className={`block text-display text-foreground text-balance leading-[0.92] text-jp ${
+                className={`block text-display text-foreground text-balance leading-[0.92] ${
                   prefersReducedMotion ? "" : "animate-line-reveal stagger-1"
                 }`}
               >
-                すべては
+                All for
               </span>
               <span
-                className={`block text-display text-foreground/70 text-balance leading-[0.92] text-jp ${
+                className={`block text-display text-foreground/70 text-balance leading-[0.92] ${
                   prefersReducedMotion ? "" : "animate-line-reveal stagger-2"
                 }`}
               >
-                バリューのために
+                Value
               </span>
             </h1>
 
