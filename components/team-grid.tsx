@@ -31,13 +31,6 @@ const members = [
     name: { ja: "Srijan", en: "Srijan" },
     role: { ja: "事業開発", en: "Business Development" },
   },
-  {
-    id: "tomo",
-    photo: "/team/tomo.png",
-    imageClass: "object-contain object-center scale-[0.82] -translate-y-[10%] origin-bottom",
-    name: { ja: "鈴田智仁", en: "Tomo Suzuta" },
-    role: { ja: "クリエイティブテクノロジスト", en: "Creative Technologist" },
-  },
 ] as const
 
 export function TeamGrid({ lang }: { lang: Lang }) {
